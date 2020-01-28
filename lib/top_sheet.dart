@@ -15,7 +15,7 @@ class TopSheet extends StatefulWidget {
   @override
   _TopSheetState createState() => _TopSheetState();
 
-  Future<T> show<T extends Object>(
+  static Future<T> show<T extends Object>(
       {@required BuildContext context,
       @required Widget child,
       direction = TopSheetDirection.BOTTOM,
