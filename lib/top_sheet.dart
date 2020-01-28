@@ -15,12 +15,12 @@ class TopSheet extends StatefulWidget {
   @override
   _TopSheetState createState() => _TopSheetState();
 
-  static show(
+  Future<T> show<T extends Object>(
       {@required BuildContext context,
       @required Widget child,
       direction = TopSheetDirection.BOTTOM,
       backgroundColor = const Color(0xb3212121)}) {
-    Navigator.push(
+    return Navigator.push<T>(
         context,
         PageRouteBuilder(
             pageBuilder: (BuildContext context, Animation<double> animation,
