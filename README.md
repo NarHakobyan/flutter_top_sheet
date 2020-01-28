@@ -4,6 +4,8 @@ flutter Top sheet package
 
 ## Getting Started
 
+<img src="image.gif"></img>
+
 ### installation
 
 install latest version from [Pub](https://pub.dev/packages/top_sheet)
